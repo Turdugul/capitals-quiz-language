@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowArbitraryExtensions": true,
+
+    "allowSyntheticDefaultImports": true,  
+  },
+   "include": ["src/**/*.ts", "src/**/*.tsx", "types/**/*.d.ts"], 
+  "exclude": ["node_modules", "dist"]
+}
