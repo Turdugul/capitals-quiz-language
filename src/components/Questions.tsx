@@ -50,7 +50,7 @@ const Questions: React.FC<QuestionProps> = ({
       <div className="space-y-2">
         {options.map((option) => {
           let buttonClass =
-            "bg-blue-500 hover:bg-blue-700 dark:bg-blue-400 dark:hover:bg-blue-600";
+            "bg-blue-500 md:hover:bg-blue-700 dark:bg-blue-400 dark:md:hover:bg-blue-600";
           if (selectedAnswer) {
             if (option === country.capital) buttonClass = "bg-green-500";
             else if (option === selectedAnswer) buttonClass = "bg-red-500";
