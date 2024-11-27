@@ -42,7 +42,7 @@ Additionally, users can choose between **English** and **Kyrgyz** language optio
 2. Navigate to the project directory:
 
    ```bash
-   cd country-capital-game
+   cd capitals-app
    ```
 
 3. Install the dependencies:
@@ -102,8 +102,6 @@ Additionally, users can choose between **English** and **Kyrgyz** language optio
 - Allows users to toggle between English and Kyrgyz languages.
 
 ## **Future Enhancements**
-
-- Add a timer for each question.
 - Include regional or difficulty-based filtering options.
 - Display additional information about countries (e.g., population, area).
 - Add animations for smoother transitions.

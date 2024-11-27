@@ -20,7 +20,7 @@ const initialState: State = {
   correctAnswers: 0,
   wrongAnswers: 0,
   isCorrect: null,
-  isFinished: false, 
+  isFinished: false,
 };
 
 type Action =
@@ -46,10 +46,10 @@ const reducer = (state: State, action: Action): State => {
       };
     case "RESET":
       return initialState;
-      case "FINISH":
+    case "FINISH":
         return {
           ...state,
-          isFinished: true, 
+          isFinished: true,
         };
     default:
       return state;
@@ -99,7 +99,7 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-gray-200 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex justify-center p-6">
     <div className="max-w-lg h-2/4 sm:h-2/4 w-full bg-white dark:bg-gray-700 rounded-lg shadow-2xl p-6 m-4">
       <div className="flex mb-4 flex-col items-center justify-center sm:justify-between sm:flex-row">
-      <h1 className="pb-2 flex-grow text-base sm:pb-0 sm:text-lg  text-center sm:text-left font-semibold">{translations[language].title}</h1>
+      <h1 className="pb-2 flex-grow text- sm:pb-2 sm:text-xl text-center sm:py-4 sm:text-left font-semibold">{translations[language].title}</h1>
         <div className="flex flex-row-reverse md:flex-row flex-none gap-4">
             <select
               value={language}
